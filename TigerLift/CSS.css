@@ -1,0 +1,159 @@
+﻿body {
+    background-image:url(); 
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
+#navigation a:hover  {
+	background-color:lime; /* color effect for navigation button */
+}
+
+#top { /* top banner */
+	padding: 10px 10px;
+ 	text-align:center;
+}
+
+#body { 
+	width: 1028px; 
+	font-family: "Vollkorn", serif;
+	font-size: 24px;
+	background-color:black;
+	margin: 0px auto;
+	padding: 0px 0px;
+
+	}
+
+#navigation {
+	text-align:center;
+}
+
+#summery {
+	margin: 20px 40px;
+	padding: 10px 20px;
+	font-size: 20px;
+	text-align: justify;
+	color:#FFFFFF;
+}
+
+#shop {
+	float: right;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+#footer { 
+    margin: 0px 14px;
+	padding: 0px 0px;
+    
+}
+table {
+    border-collapse: collapse;
+    border: hidden;
+}
+
+#footerbody { 
+	width: 1000px; 
+    margin: 0px auto;
+	padding: 5px 5px;
+	}
+
+#validator {
+	margin-top: 5px;
+	margin-left: 5px;
+    color:brown;
+    float:left;
+    font-family:Arial;
+    font-size:12px;
+}
+
+#admin {
+	margin-top: 5px;
+	margin-left: 5px;
+    color:brown;
+    float:right;
+    font-family:Arial;
+    font-size:12px;
+}
+
+#summary {
+    margin: 10px 10px;
+	padding: 10px 10px;
+    color:floralwhite;
+    font-family:Arial;
+    font-size:18px;
+    text-align:justify;
+}
+
+#homewk {
+    margin: 10px 10px;
+	padding: 10px 10px;
+    color:#FFFFFF;
+    font-family:Arial;
+    font-size:15px;
+    text-align:center;
+}
+
+#contact {
+    padding:50px 50px;
+    color:#FFFFFF;
+    text-align:left;
+    font-family:Arial;
+    font-size:15px;
+}
+
+p.name {
+    text-align:right;
+    width:200px;
+}
+
+p.email {
+    text-align:right;
+    width:200px;
+}
+
+p.title {
+    text-align:right;
+    width:200px;
+}
+
+p.comment {
+    text-align:right;
+    width:200px;
+}
+
+p.send {
+    text-align:right;
+    width:200px;
+}
+
+#address {
+    margin: 10px 10px;
+	padding: 10px 10px;
+    text-align:left;
+    font-family:Arial;  
+    color:#FFFFFF;
+    font-size:12px
+}
+
+#login {
+    padding:50px 50px;
+    color:#FFFFFF;
+    text-align:left;
+    font-family:Arial;
+    font-size:15px;
+}
+
+p.username {
+    text-align:right;
+    width:200px;
+}
+
+p.password {
+    text-align:right;
+    width:200px;
+}
+
+p.loginbutton {
+    text-align:right;
+    width:200px;
+}

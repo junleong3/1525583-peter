@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="TigerLift.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <link rel="stylesheet" type="text/css" href="CSS.css" runat="server" /> <!-- Linked CSS file -->
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+<div id="body">
+
+<div id="top">
+<img src="image/banner.png" alt="banner" /> <!-- Top header picture -->
+</div>
+
+
+<div id="navigation"> <!-- navigation button -->
+
+<a href="Default.aspx"><img src="image/home.png" alt="Home" /></a> 
+
+<a href=""><img src="image/shop.png" alt="Shop" /></a> 
+
+<a href="Login.aspx"><img src="image/login.png" alt="Log In" /></a> 
+
+<a href="Contact.aspx"><img src="image/contact.png" alt="Contact Us" /></a>
+    
+<a href=""><img src="image/cart.png" alt="Cart" /></a> 
+
+</div>
+
+</div>
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+<footer>
+<div id="footerbody">
+
+<div id="footer">
+
+<div id="validator">
+	<h4>Validator:</h4>
+	<a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> |
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a> |
+    <a href="http://achecker.ca//checker/?uri=refere">Check WCAG</a> 
+
+</div>
+
+<div id="admin">
+    <h4>Admin Log in:</h4>
+    <a href="">Admin</a>
+</div>
+
+</div>
+
+</div>
+</footer>
+</body>
+</html>
