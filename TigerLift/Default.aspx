@@ -19,7 +19,7 @@
     <table>
         <tr>
         <td> <img src="image/abs.png" /> </td>
-        <td> <a href="abs.aspx"><h4>Lift of abs program</h4></a> Suitable for all body size. Different kind of abs routine level. Compatible for both male and female. </td>
+        <td> <a href="abs.aspx"><h4>List of abs program</h4></a> Suitable for all body size. Different kind of abs routine level. Compatible for both male and female. </td>
         </tr>
 
         <tr>
