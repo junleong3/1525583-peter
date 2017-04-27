@@ -4,16 +4,7 @@
 	background-attachment: fixed;
 }
 
-#navigation a:hover  {
-	background-color:lime; /* color effect for navigation button */
-}
-
-#top { /* top banner */
-	padding: 10px 10px;
- 	text-align:center;
-}
-
-#body { 
+#masterbody { 
 	width: 1028px; 
 	font-family: "Vollkorn", serif;
 	font-size: 24px;
@@ -23,6 +14,31 @@
 
 	}
 
+#navigation a:hover  {
+	background-color:lime; /* color effect for navigation button */
+}
+
+#top { /* top banner */
+	padding: 10px 10px;
+ 	text-align:center;
+}
+
+#bodywrap { 
+	width: 1028px; 
+	font-family: "Vollkorn", serif;
+	font-size: 24px;
+	background-color:black;
+	margin: 0px auto;
+	padding: 0px 0px;
+
+	}
+
+#footerbody { 
+	width: 1028px; 
+    margin: 0px auto;
+	padding: 0px 0px;
+	}
+
 #navigation {
 	text-align:center;
 }
@@ -30,7 +46,8 @@
 #summery {
 	margin: 20px 40px;
 	padding: 10px 20px;
-	font-size: 20px;
+	font-size: 15px;
+    font-family:Arial;
 	text-align: justify;
 	color:#FFFFFF;
 }
@@ -50,12 +67,6 @@ table {
     border-collapse: collapse;
     border: hidden;
 }
-
-#footerbody { 
-	width: 1000px; 
-    margin: 0px auto;
-	padding: 5px 5px;
-	}
 
 #validator {
 	margin-top: 5px;
@@ -93,46 +104,11 @@ table {
     text-align:center;
 }
 
-#contact {
-    padding:50px 50px;
+#contact{
+    margin: 15px 15px;
+	padding: 15px 15px;
     color:#FFFFFF;
-    text-align:left;
-    font-family:Arial;
     font-size:15px;
-}
-
-p.name {
-    text-align:right;
-    width:200px;
-}
-
-p.email {
-    text-align:right;
-    width:200px;
-}
-
-p.title {
-    text-align:right;
-    width:200px;
-}
-
-p.comment {
-    text-align:right;
-    width:200px;
-}
-
-p.send {
-    text-align:right;
-    width:200px;
-}
-
-#address {
-    margin: 10px 10px;
-	padding: 10px 10px;
-    text-align:left;
-    font-family:Arial;  
-    color:#FFFFFF;
-    font-size:12px
 }
 
 #login {

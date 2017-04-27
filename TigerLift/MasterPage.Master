@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<div id="body">
+<div id="masterbody">
 
 <div id="top">
 <img src="image/banner.png" alt="banner" /> <!-- Top header picture -->
@@ -42,6 +42,7 @@
     </div>
     </form>
 <footer>
+    
 <div id="footerbody">
 
 <div id="footer">
