@@ -11,11 +11,10 @@
 	background-color:black;
 	margin: 0px auto;
 	padding: 0px 0px;
-
 	}
 
-#navigation a:hover  {
-	background-color:lime; /* color effect for navigation button */
+#accountbuttonigation a:hover  {
+	background-color:lime; /* color effect for accountbuttonigation button */
 }
 
 #top { /* top banner */
@@ -30,7 +29,6 @@
 	background-color:black;
 	margin: 0px auto;
 	padding: 0px 0px;
-
 	}
 
 #footerbody { 
@@ -39,7 +37,7 @@
 	padding: 0px 0px;
 	}
 
-#navigation {
+#accountbuttonigation {
 	text-align:center;
 }
 
@@ -112,24 +110,10 @@ table {
 }
 
 #login {
-    padding:50px 50px;
-    color:#FFFFFF;
-    text-align:left;
-    font-family:Arial;
-    font-size:15px;
+    padding: 50px 50px;
+    color: #FFFFFF;
+    text-align: left;
+    font-family: Arial;
+    font-size: 15px;
 }
 
-p.username {
-    text-align:right;
-    width:200px;
-}
-
-p.password {
-    text-align:right;
-    width:200px;
-}
-
-p.loginbutton {
-    text-align:right;
-    width:200px;
-}

@@ -3,16 +3,23 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<div id="bodywrap">
+    <div id="bodywrap">
     <div id="login">
         <h1>Login</h1>
 
-       <p class="username"> <label for="username">Username:</label> <input type="text" name="name" placeholder="Enter username here" /> </p>
-       <p class="password"> <label for="password">Password:</label> <input type="password" name="password" placeholder="Enter password here" /> </p>
- 
-
-            <p class="loginbutton"> <input type="submit" value="Login" /> </p>
-        </div>
+        <p><asp:Literal ID="loginStatus" runat="server"></asp:Literal></p>
+        <p>Username:</p>
+        <p>
+            <asp:TextBox ID="txtUserName" runat="server"></asp:TextBox>
+        </p>
+        <p>Password:</p>
+        <p>
+            <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
+        </p>
+        <p>
+            <asp:Button ID="btnLogin" runat="server" OnClick="lnkLogin_Click" Text="Log In" />
+        </p>
+</div>
 </div>
 
 </asp:Content>

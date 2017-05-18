@@ -18,18 +18,18 @@
     <h2>List of program available:</h2>   
     <table>
         <tr>
-        <td> <img src="image/abs.png" alt=""/> </td>
-        <td> <a href="abs.aspx"><h4>List of abs program</h4></a> Suitable for all body size. Different kind of abs routine level. Compatible for both male and female. </td>
+        <td> <img src="image/abs.png" alt="abs"/> </td>
+        <td> <a href="Shop.aspx"><h4>Abs program</h4></a> Suitable for all body size. Different kind of abs routine level. Compatible for both male and female. </td>
         </tr>
 
         <tr>
-        <td> <img src="image/chest.png" alt="" /> </td>
-        <td> <a href="chest.aspx"><h4>Different chest routine</h4></a>12 weeks chest routine. Full workout for inner and outer pecks to pump the chest to its' full potential. </td>
+        <td> <img src="image/chest.png" alt="chest" /> </td>
+        <td> <a href="Shop.aspx"><h4>Chest routine</h4></a>12 weeks chest routine. Full workout for inner and outer pecks to pump the chest to its' full potential. </td>
         </tr>
 
         <tr>
-        <td> <img src="image/cleanbulk.png" alt="" /> </td>
-        <td> <a href="cleanbulk.aspx"><h4>Clean bulk program</h4></a> Track your daily macros and calories intake. One-on-one interactions on full day eating plan. </td>
+        <td> <img src="image/cleanbulk.png" alt="food" /> </td>
+        <td> <a href="Shop.aspx"><h4>Clean bulk program</h4></a> Track your daily macros and calories intake. One-on-one interactions on full day eating plan. </td>
         </tr>
             
     </table>

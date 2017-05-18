@@ -10,42 +10,60 @@
 namespace TigerLift {
     
     
-    public partial class WebForm1 {
+    public partial class Cart1 {
         
         /// <summary>
-        /// loginStatus control.
+        /// CartPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal loginStatus;
+        protected global::System.Web.UI.WebControls.Panel CartPanel;
         
         /// <summary>
-        /// txtUserName control.
+        /// litTotal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUserName;
+        protected global::System.Web.UI.WebControls.Literal litTotal;
         
         /// <summary>
-        /// txtPassword control.
+        /// litVat control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPassword;
+        protected global::System.Web.UI.WebControls.Literal litVat;
         
         /// <summary>
-        /// btnLogin control.
+        /// litTotalAmount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogin;
+        protected global::System.Web.UI.WebControls.Literal litTotalAmount;
+        
+        /// <summary>
+        /// InkContinue control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton InkContinue;
+        
+        /// <summary>
+        /// btnCheckOut control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCheckOut;
     }
 }

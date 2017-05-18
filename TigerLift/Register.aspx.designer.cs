@@ -10,25 +10,25 @@
 namespace TigerLift {
     
     
-    public partial class WebForm1 {
+    public partial class Register {
         
         /// <summary>
-        /// loginStatus control.
+        /// litStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal loginStatus;
+        protected global::System.Web.UI.WebControls.Literal litStatus;
         
         /// <summary>
-        /// txtUserName control.
+        /// txtUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUserName;
+        protected global::System.Web.UI.WebControls.TextBox txtUsername;
         
         /// <summary>
         /// txtPassword control.
@@ -40,12 +40,21 @@ namespace TigerLift {
         protected global::System.Web.UI.WebControls.TextBox txtPassword;
         
         /// <summary>
-        /// btnLogin control.
+        /// txtConfirmPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogin;
+        protected global::System.Web.UI.WebControls.TextBox txtConfirmPassword;
+        
+        /// <summary>
+        /// Button1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }

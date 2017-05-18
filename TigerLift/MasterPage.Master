@@ -11,6 +11,8 @@
 </head>
 <body>
 
+    <form id="form1" runat="server">
+
 <div id="masterbody">
 
 <div id="top">
@@ -22,19 +24,22 @@
 
 <a href="Default.aspx"><img src="image/home.png" alt="Home" /></a> 
 
-<a href=""><img src="image/shop.png" alt="Shop" /></a> 
-
-<a href="Login.aspx"><img src="image/login.png" alt="Log In" /></a> 
+<a href="Shop.aspx"><img src="image/shop.png" alt="Shop" /></a> 
 
 <a href="Contact.aspx"><img src="image/contact.png" alt="Contact Us" /></a>
-    
-<a href=""><img src="image/cart.png" alt="Cart" /></a> 
+
+<a href="Cart.aspx"><img src="image/cart.png" alt="Cart" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<asp:HyperLink ID="lnkRegister" runat="server" NavigateUrl="Register.aspx">REGISTER</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;
+<asp:HyperLink ID="lnkLogin" runat="server" NavigateUrl="Login.aspx">LOG IN</asp:HyperLink>
+<asp:LinkButton ID="btnLogout" runat="server" OnClick="btnLogOut_Click" Text="LOG OUT" />
 
 </div>
 
 </div>
 
-    <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
@@ -57,7 +62,9 @@
 
 <div id="admin">
     <h4>Admin Log in:</h4>
-    <a href="">Admin</a>
+    <a href="management.aspx">Admin</a>
+
+
 </div>
 
 </div>
